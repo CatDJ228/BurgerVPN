@@ -1,12 +1,12 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.databinding.ItemRecyclerBypassListBinding
-import com.v2ray.ang.dto.AppInfo
-import com.v2ray.ang.viewmodel.PerAppProxyViewModel
+import com.burgervpn.android.databinding.ItemRecyclerBypassListBinding
+import com.burgervpn.android.dto.AppInfo
+import com.burgervpn.android.viewmodel.PerAppProxyViewModel
 
 class PerAppProxyAdapter(
     val apps: List<AppInfo>,

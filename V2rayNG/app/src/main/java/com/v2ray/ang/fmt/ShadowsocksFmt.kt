@@ -1,14 +1,14 @@
-package com.v2ray.ang.fmt
+package com.burgervpn.android.fmt
 
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.enums.NetworkType
-import com.v2ray.ang.extension.idnHost
-import com.v2ray.ang.handler.V2rayConfigManager
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.dto.ProfileItem
+import com.burgervpn.android.dto.V2rayConfig.OutboundBean
+import com.burgervpn.android.enums.EConfigType
+import com.burgervpn.android.enums.NetworkType
+import com.burgervpn.android.extension.idnHost
+import com.burgervpn.android.handler.V2rayConfigManager
+import com.burgervpn.android.util.Utils
 import java.net.URI
 
 object ShadowsocksFmt : FmtBase() {

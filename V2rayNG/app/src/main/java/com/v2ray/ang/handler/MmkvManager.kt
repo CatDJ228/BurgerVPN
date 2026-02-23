@@ -1,19 +1,19 @@
-package com.v2ray.ang.handler
+package com.burgervpn.android.handler
 
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig.DEFAULT_SUBSCRIPTION_ID
-import com.v2ray.ang.AppConfig.PREF_IS_BOOTED
-import com.v2ray.ang.AppConfig.PREF_ROUTING_RULESET
-import com.v2ray.ang.dto.AssetUrlCache
-import com.v2ray.ang.dto.AssetUrlItem
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.RulesetItem
-import com.v2ray.ang.dto.ServerAffiliationInfo
-import com.v2ray.ang.dto.SubscriptionCache
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.dto.WebDavConfig
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.AppConfig.DEFAULT_SUBSCRIPTION_ID
+import com.burgervpn.android.AppConfig.PREF_IS_BOOTED
+import com.burgervpn.android.AppConfig.PREF_ROUTING_RULESET
+import com.burgervpn.android.dto.AssetUrlCache
+import com.burgervpn.android.dto.AssetUrlItem
+import com.burgervpn.android.dto.ProfileItem
+import com.burgervpn.android.dto.RulesetItem
+import com.burgervpn.android.dto.ServerAffiliationInfo
+import com.burgervpn.android.dto.SubscriptionCache
+import com.burgervpn.android.dto.SubscriptionItem
+import com.burgervpn.android.dto.WebDavConfig
+import com.burgervpn.android.util.JsonUtil
+import com.burgervpn.android.util.Utils
 
 object MmkvManager {
 

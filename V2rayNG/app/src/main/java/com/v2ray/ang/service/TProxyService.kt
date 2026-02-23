@@ -1,12 +1,12 @@
-package com.v2ray.ang.service
+package com.burgervpn.android.service
 
 import android.content.Context
 import android.os.ParcelFileDescriptor
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.contracts.Tun2SocksControl
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.contracts.Tun2SocksControl
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.handler.SettingsManager
 import java.io.File
 
 /**

@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,12 +9,12 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityLogcatBinding
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.util.Utils
-import com.v2ray.ang.viewmodel.LogcatViewModel
+import com.burgervpn.android.R
+import com.burgervpn.android.databinding.ActivityLogcatBinding
+import com.burgervpn.android.extension.toast
+import com.burgervpn.android.extension.toastSuccess
+import com.burgervpn.android.util.Utils
+import com.burgervpn.android.viewmodel.LogcatViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

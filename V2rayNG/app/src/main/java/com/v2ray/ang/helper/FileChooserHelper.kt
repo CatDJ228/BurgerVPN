@@ -1,4 +1,4 @@
-package com.v2ray.ang.helper
+package com.burgervpn.android.helper
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -7,9 +7,9 @@ import android.util.Log
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.extension.toast
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.R
+import com.burgervpn.android.extension.toast
 
 /**
  * Helper for choosing and creating files using Android Storage Access Framework.

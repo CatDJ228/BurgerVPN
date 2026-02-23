@@ -1,8 +1,8 @@
-package com.v2ray.ang.dto
+package com.burgervpn.android.dto
 
 import com.google.gson.annotations.SerializedName
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.enums.EConfigType
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.enums.EConfigType
 
 data class V2rayConfig(
     var remarks: String? = null,

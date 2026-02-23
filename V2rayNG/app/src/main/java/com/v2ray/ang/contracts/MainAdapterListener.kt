@@ -1,6 +1,6 @@
-package com.v2ray.ang.contracts
+package com.burgervpn.android.contracts
 
-import com.v2ray.ang.dto.ProfileItem
+import com.burgervpn.android.dto.ProfileItem
 
 interface MainAdapterListener :BaseAdapterListener {
 

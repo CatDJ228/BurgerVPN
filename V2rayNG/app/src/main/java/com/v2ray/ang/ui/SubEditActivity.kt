@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -6,15 +6,15 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivitySubEditBinding
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.R
+import com.burgervpn.android.databinding.ActivitySubEditBinding
+import com.burgervpn.android.dto.SubscriptionItem
+import com.burgervpn.android.extension.toast
+import com.burgervpn.android.extension.toastSuccess
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.handler.SettingsChangeManager
+import com.burgervpn.android.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

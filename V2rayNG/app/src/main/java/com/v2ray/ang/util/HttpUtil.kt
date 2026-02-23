@@ -1,11 +1,11 @@
-package com.v2ray.ang.util
+package com.burgervpn.android.util
 
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.LOOPBACK
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.util.Utils.encode
-import com.v2ray.ang.util.Utils.urlDecode
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.AppConfig.LOOPBACK
+import com.burgervpn.android.BuildConfig
+import com.burgervpn.android.util.Utils.encode
+import com.burgervpn.android.util.Utils.urlDecode
 import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.IDN
@@ -137,7 +137,7 @@ object HttpUtil {
             if (currentUrl == null) continue
             val conn = createProxyConnection(currentUrl, httpPort, timeout, timeout) ?: continue
             val finalUserAgent = if (userAgent.isNullOrBlank()) {
-                "v2rayNG/${BuildConfig.VERSION_NAME}"
+                "BurgerVPN/${BuildConfig.VERSION_NAME}"
             } else {
                 userAgent
             }

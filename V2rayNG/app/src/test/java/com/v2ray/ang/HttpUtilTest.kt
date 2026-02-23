@@ -1,6 +1,6 @@
-package com.v2ray.ang
+package com.burgervpn.android
 
-import com.v2ray.ang.util.HttpUtil
+import com.burgervpn.android.util.HttpUtil
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

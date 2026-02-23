@@ -1,15 +1,15 @@
-package com.v2ray.ang.handler
+package com.burgervpn.android.handler
 
 import android.content.Context
 import android.os.Build
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.dto.CheckUpdateResult
-import com.v2ray.ang.dto.GitHubRelease
-import com.v2ray.ang.extension.concatUrl
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.JsonUtil
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.BuildConfig
+import com.burgervpn.android.dto.CheckUpdateResult
+import com.burgervpn.android.dto.GitHubRelease
+import com.burgervpn.android.extension.concatUrl
+import com.burgervpn.android.util.HttpUtil
+import com.burgervpn.android.util.JsonUtil
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File

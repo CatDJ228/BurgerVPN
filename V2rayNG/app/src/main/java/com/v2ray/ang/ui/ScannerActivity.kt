@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.content.Intent
 import android.graphics.BitmapFactory
@@ -6,12 +6,12 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityNoneBinding
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.QRCodeDecoder
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.R
+import com.burgervpn.android.databinding.ActivityNoneBinding
+import com.burgervpn.android.extension.toast
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.util.QRCodeDecoder
 import io.github.g00fy2.quickie.QRResult
 import io.github.g00fy2.quickie.ScanCustomCode
 import io.github.g00fy2.quickie.config.BarcodeFormat

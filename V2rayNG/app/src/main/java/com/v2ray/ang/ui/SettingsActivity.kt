@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.os.Bundle
 import android.view.View
@@ -9,15 +9,15 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequest
 import androidx.work.multiprocess.RemoteWorkManager
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.VPN
-import com.v2ray.ang.R
-import com.v2ray.ang.extension.toLongEx
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SubscriptionUpdater
-import com.v2ray.ang.helper.MmkvPreferenceDataStore
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.AngApplication
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.AppConfig.VPN
+import com.burgervpn.android.R
+import com.burgervpn.android.extension.toLongEx
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.handler.SubscriptionUpdater
+import com.burgervpn.android.helper.MmkvPreferenceDataStore
+import com.burgervpn.android.util.Utils
 import java.util.concurrent.TimeUnit
 
 class SettingsActivity : BaseActivity() {

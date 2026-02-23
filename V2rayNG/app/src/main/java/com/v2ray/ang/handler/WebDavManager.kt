@@ -1,8 +1,8 @@
-package com.v2ray.ang.handler
+package com.burgervpn.android.handler
 
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.WebDavConfig
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.dto.WebDavConfig
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okhttp3.Credentials

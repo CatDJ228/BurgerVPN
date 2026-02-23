@@ -1,11 +1,11 @@
-package com.v2ray.ang.receiver
+package com.burgervpn.android.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.text.TextUtils
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.handler.V2RayServiceManager
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.handler.V2RayServiceManager
 
 class TaskerReceiver : BroadcastReceiver() {
 

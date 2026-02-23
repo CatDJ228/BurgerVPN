@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -6,15 +6,15 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AlertDialog
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityServerGroupBinding
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.R
+import com.burgervpn.android.databinding.ActivityServerGroupBinding
+import com.burgervpn.android.dto.ProfileItem
+import com.burgervpn.android.enums.EConfigType
+import com.burgervpn.android.extension.isNotNullEmpty
+import com.burgervpn.android.extension.toast
+import com.burgervpn.android.extension.toastSuccess
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.util.Utils
 
 class ServerGroupActivity : BaseActivity() {
     private val binding by lazy { ActivityServerGroupBinding.inflate(layoutInflater) }

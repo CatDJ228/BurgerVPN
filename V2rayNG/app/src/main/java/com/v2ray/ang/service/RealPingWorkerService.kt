@@ -1,11 +1,11 @@
-package com.v2ray.ang.service
+package com.burgervpn.android.service
 
 import android.content.Context
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.handler.V2RayNativeManager
-import com.v2ray.ang.handler.V2rayConfigManager
-import com.v2ray.ang.util.MessageUtil
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.handler.SettingsManager
+import com.burgervpn.android.handler.V2RayNativeManager
+import com.burgervpn.android.handler.V2rayConfigManager
+import com.burgervpn.android.util.MessageUtil
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope

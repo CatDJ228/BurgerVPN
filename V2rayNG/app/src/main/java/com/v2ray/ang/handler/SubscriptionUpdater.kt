@@ -1,4 +1,4 @@
-package com.v2ray.ang.handler
+package com.burgervpn.android.handler
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -10,8 +10,8 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.R
 
 object SubscriptionUpdater {
 

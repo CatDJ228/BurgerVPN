@@ -1,4 +1,4 @@
-package com.v2ray.ang.handler
+package com.burgervpn.android.handler
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -12,11 +12,11 @@ import android.os.Build
 import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.extension.toSpeedString
-import com.v2ray.ang.ui.MainActivity
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.R
+import com.burgervpn.android.dto.ProfileItem
+import com.burgervpn.android.extension.toSpeedString
+import com.burgervpn.android.ui.MainActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

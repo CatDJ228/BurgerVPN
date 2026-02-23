@@ -1,9 +1,9 @@
-package com.v2ray.ang.handler
+package com.burgervpn.android.handler
 
 import android.content.Context
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.util.Utils
 import go.Seq
 import libv2ray.CoreCallbackHandler
 import libv2ray.CoreController

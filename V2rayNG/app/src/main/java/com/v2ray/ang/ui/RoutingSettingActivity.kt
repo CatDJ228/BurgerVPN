@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -11,18 +11,18 @@ import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.contracts.BaseAdapterListener
-import com.v2ray.ang.databinding.ActivityRoutingSettingBinding
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.helper.SimpleItemTouchHelperCallback
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
-import com.v2ray.ang.viewmodel.RoutingSettingsViewModel
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.R
+import com.burgervpn.android.contracts.BaseAdapterListener
+import com.burgervpn.android.databinding.ActivityRoutingSettingBinding
+import com.burgervpn.android.extension.toastError
+import com.burgervpn.android.extension.toastSuccess
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.handler.SettingsManager
+import com.burgervpn.android.helper.SimpleItemTouchHelperCallback
+import com.burgervpn.android.util.JsonUtil
+import com.burgervpn.android.util.Utils
+import com.burgervpn.android.viewmodel.RoutingSettingsViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

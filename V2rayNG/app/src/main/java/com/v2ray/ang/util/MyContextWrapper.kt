@@ -1,4 +1,4 @@
-package com.v2ray.ang.util
+package com.burgervpn.android.util
 
 import android.content.Context
 import android.content.ContextWrapper

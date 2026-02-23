@@ -1,4 +1,4 @@
-package com.v2ray.ang.helper
+package com.burgervpn.android.helper
 
 import android.graphics.Canvas
 import android.graphics.Rect

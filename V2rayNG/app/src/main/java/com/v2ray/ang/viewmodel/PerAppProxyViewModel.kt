@@ -1,9 +1,9 @@
-package com.v2ray.ang.viewmodel
+package com.burgervpn.android.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.handler.SettingsChangeManager
 
 class PerAppProxyViewModel : ViewModel() {
     private val blacklist: MutableSet<String> = MmkvManager.decodeSettingsStringSet(AppConfig.PREF_PER_APP_PROXY_SET)?.let {

@@ -1,12 +1,12 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.os.Bundle
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityAboutBinding
-import com.v2ray.ang.handler.V2RayNativeManager
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.BuildConfig
+import com.burgervpn.android.R
+import com.burgervpn.android.databinding.ActivityAboutBinding
+import com.burgervpn.android.handler.V2RayNativeManager
+import com.burgervpn.android.util.Utils
 
 class AboutActivity : BaseActivity() {
     private val binding by lazy { ActivityAboutBinding.inflate(layoutInflater) }

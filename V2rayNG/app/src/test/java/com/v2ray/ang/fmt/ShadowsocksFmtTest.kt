@@ -1,9 +1,9 @@
-package com.v2ray.ang.fmt
+package com.burgervpn.android.fmt
 
 import android.util.Base64
 import android.util.Log
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.dto.ProfileItem
+import com.burgervpn.android.enums.EConfigType
+import com.burgervpn.android.dto.ProfileItem
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

@@ -1,4 +1,4 @@
-package com.v2ray.ang.contracts
+package com.burgervpn.android.contracts
 
 /**
  * Interface that defines the control operations for tun2socks implementations.

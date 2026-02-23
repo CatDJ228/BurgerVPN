@@ -1,14 +1,14 @@
-package com.v2ray.ang.service
+package com.burgervpn.android.service
 
 import android.app.Service
 import android.content.Intent
 import android.os.IBinder
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.MSG_MEASURE_CONFIG
-import com.v2ray.ang.AppConfig.MSG_MEASURE_CONFIG_CANCEL
-import com.v2ray.ang.extension.serializable
-import com.v2ray.ang.handler.V2RayNativeManager
-import com.v2ray.ang.util.MessageUtil
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.AppConfig.MSG_MEASURE_CONFIG
+import com.burgervpn.android.AppConfig.MSG_MEASURE_CONFIG_CANCEL
+import com.burgervpn.android.extension.serializable
+import com.burgervpn.android.handler.V2RayNativeManager
+import com.burgervpn.android.util.MessageUtil
 import java.util.Collections
 
 class V2RayTestService : Service() {

@@ -1,13 +1,13 @@
-package com.v2ray.ang.service
+package com.burgervpn.android.service
 
 import android.app.Service
 import android.content.Context
 import android.content.Intent
 import android.os.IBinder
-import com.v2ray.ang.contracts.ServiceControl
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.handler.V2RayServiceManager
-import com.v2ray.ang.util.MyContextWrapper
+import com.burgervpn.android.contracts.ServiceControl
+import com.burgervpn.android.handler.SettingsManager
+import com.burgervpn.android.handler.V2RayServiceManager
+import com.burgervpn.android.util.MyContextWrapper
 import java.lang.ref.SoftReference
 
 class V2RayProxyOnlyService : Service(), ServiceControl {

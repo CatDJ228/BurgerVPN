@@ -1,7 +1,7 @@
-package com.v2ray.ang.util
+package com.burgervpn.android.util
 
 import android.util.Log
-import com.v2ray.ang.AppConfig
+import com.burgervpn.android.AppConfig
 import java.io.BufferedOutputStream
 import java.io.File
 import java.io.FileInputStream

@@ -1,13 +1,13 @@
-package com.v2ray.ang.handler
+package com.burgervpn.android.handler
 
 import android.content.Context
 import android.os.SystemClock
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.IPAPIInfo
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.JsonUtil
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.R
+import com.burgervpn.android.dto.IPAPIInfo
+import com.burgervpn.android.util.HttpUtil
+import com.burgervpn.android.util.JsonUtil
 import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.isActive
 import java.io.IOException

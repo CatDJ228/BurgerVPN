@@ -1,15 +1,15 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.R
-import com.v2ray.ang.contracts.BaseAdapterListener
-import com.v2ray.ang.databinding.ItemRecyclerUserAssetBinding
-import com.v2ray.ang.extension.toTrafficString
-import com.v2ray.ang.viewmodel.UserAssetViewModel
+import com.burgervpn.android.R
+import com.burgervpn.android.contracts.BaseAdapterListener
+import com.burgervpn.android.databinding.ItemRecyclerUserAssetBinding
+import com.burgervpn.android.extension.toTrafficString
+import com.burgervpn.android.viewmodel.UserAssetViewModel
 import java.io.File
 import java.text.DateFormat
 import java.util.Date

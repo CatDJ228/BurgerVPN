@@ -1,12 +1,12 @@
-package com.v2ray.ang.dto
+package com.burgervpn.android.dto
 
-import com.v2ray.ang.AppConfig.LOOPBACK
-import com.v2ray.ang.AppConfig.PORT_SOCKS
-import com.v2ray.ang.AppConfig.TAG_BLOCKED
-import com.v2ray.ang.AppConfig.TAG_DIRECT
-import com.v2ray.ang.AppConfig.TAG_PROXY
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.AppConfig.LOOPBACK
+import com.burgervpn.android.AppConfig.PORT_SOCKS
+import com.burgervpn.android.AppConfig.TAG_BLOCKED
+import com.burgervpn.android.AppConfig.TAG_DIRECT
+import com.burgervpn.android.AppConfig.TAG_PROXY
+import com.burgervpn.android.enums.EConfigType
+import com.burgervpn.android.util.Utils
 
 data class ProfileItem(
     val configVersion: Int = 4,

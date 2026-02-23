@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -7,19 +7,19 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.contracts.MainAdapterListener
-import com.v2ray.ang.databinding.ItemRecyclerFooterBinding
-import com.v2ray.ang.databinding.ItemRecyclerMainBinding
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.ServersCache
-import com.v2ray.ang.extension.nullIfBlank
-import com.v2ray.ang.handler.AngConfigManager
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.helper.ItemTouchHelperAdapter
-import com.v2ray.ang.helper.ItemTouchHelperViewHolder
-import com.v2ray.ang.viewmodel.MainViewModel
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.R
+import com.burgervpn.android.contracts.MainAdapterListener
+import com.burgervpn.android.databinding.ItemRecyclerFooterBinding
+import com.burgervpn.android.databinding.ItemRecyclerMainBinding
+import com.burgervpn.android.dto.ProfileItem
+import com.burgervpn.android.dto.ServersCache
+import com.burgervpn.android.extension.nullIfBlank
+import com.burgervpn.android.handler.AngConfigManager
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.helper.ItemTouchHelperAdapter
+import com.burgervpn.android.helper.ItemTouchHelperViewHolder
+import com.burgervpn.android.viewmodel.MainViewModel
 import java.util.Collections
 
 class MainRecyclerAdapter(

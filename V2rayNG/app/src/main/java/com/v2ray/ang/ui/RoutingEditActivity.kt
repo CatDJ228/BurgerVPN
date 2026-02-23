@@ -1,18 +1,18 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityRoutingEditBinding
-import com.v2ray.ang.dto.RulesetItem
-import com.v2ray.ang.extension.nullIfBlank
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.R
+import com.burgervpn.android.databinding.ActivityRoutingEditBinding
+import com.burgervpn.android.dto.RulesetItem
+import com.burgervpn.android.extension.nullIfBlank
+import com.burgervpn.android.extension.toast
+import com.burgervpn.android.extension.toastSuccess
+import com.burgervpn.android.handler.SettingsManager
+import com.burgervpn.android.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

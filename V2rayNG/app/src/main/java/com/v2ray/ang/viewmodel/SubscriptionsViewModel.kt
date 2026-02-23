@@ -1,11 +1,11 @@
-package com.v2ray.ang.viewmodel
+package com.burgervpn.android.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.v2ray.ang.dto.SubscriptionCache
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
-import com.v2ray.ang.handler.SettingsManager
+import com.burgervpn.android.dto.SubscriptionCache
+import com.burgervpn.android.dto.SubscriptionItem
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.handler.SettingsChangeManager
+import com.burgervpn.android.handler.SettingsManager
 
 class SubscriptionsViewModel : ViewModel() {
     private val subscriptions: MutableList<SubscriptionCache> =

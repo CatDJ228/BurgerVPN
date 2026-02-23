@@ -1,13 +1,13 @@
-package com.v2ray.ang.helper
+package com.burgervpn.android.helper
 
 import android.content.pm.PackageManager
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.v2ray.ang.R
-import com.v2ray.ang.enums.PermissionType
-import com.v2ray.ang.extension.toast
+import com.burgervpn.android.R
+import com.burgervpn.android.enums.PermissionType
+import com.burgervpn.android.extension.toast
 
 /**
  * Helper for requesting permissions.

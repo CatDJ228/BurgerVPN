@@ -1,11 +1,11 @@
-package com.v2ray.ang.util
+package com.burgervpn.android.util
 
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.service.V2RayTestService
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.service.V2RayTestService
 import java.io.Serializable
 
 object MessageUtil {

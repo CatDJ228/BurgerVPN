@@ -1,12 +1,12 @@
-package com.v2ray.ang.fmt
+package com.burgervpn.android.fmt
 
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.enums.NetworkType
-import com.v2ray.ang.extension.nullIfBlank
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.dto.ProfileItem
+import com.burgervpn.android.enums.NetworkType
+import com.burgervpn.android.extension.nullIfBlank
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.util.HttpUtil
+import com.burgervpn.android.util.Utils
 import java.net.URI
 
 open class FmtBase {

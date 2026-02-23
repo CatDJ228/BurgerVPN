@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.burgervpn.android.service
 
 import android.app.Service
 import android.content.Context
@@ -15,17 +15,17 @@ import android.os.ParcelFileDescriptor
 import android.os.StrictMode
 import android.util.Log
 import androidx.annotation.RequiresApi
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.LOOPBACK
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.contracts.ServiceControl
-import com.v2ray.ang.contracts.Tun2SocksControl
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.NotificationManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.handler.V2RayServiceManager
-import com.v2ray.ang.util.MyContextWrapper
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.AppConfig.LOOPBACK
+import com.burgervpn.android.BuildConfig
+import com.burgervpn.android.contracts.ServiceControl
+import com.burgervpn.android.contracts.Tun2SocksControl
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.handler.NotificationManager
+import com.burgervpn.android.handler.SettingsManager
+import com.burgervpn.android.handler.V2RayServiceManager
+import com.burgervpn.android.util.MyContextWrapper
+import com.burgervpn.android.util.Utils
 import java.lang.ref.SoftReference
 
 class V2RayVpnService : VpnService(), ServiceControl {

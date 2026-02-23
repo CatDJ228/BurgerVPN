@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.content.Context
 import android.os.Bundle
@@ -15,11 +15,11 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.progressindicator.LinearProgressIndicator
-import com.v2ray.ang.R
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.helper.CustomDividerItemDecoration
-import com.v2ray.ang.util.MyContextWrapper
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.R
+import com.burgervpn.android.handler.SettingsManager
+import com.burgervpn.android.helper.CustomDividerItemDecoration
+import com.burgervpn.android.util.MyContextWrapper
+import com.burgervpn.android.util.Utils
 
 
 /**

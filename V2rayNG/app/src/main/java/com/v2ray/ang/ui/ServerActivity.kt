@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -12,24 +12,24 @@ import android.widget.LinearLayout
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.DEFAULT_PORT
-import com.v2ray.ang.AppConfig.PREF_ALLOW_INSECURE
-import com.v2ray.ang.AppConfig.REALITY
-import com.v2ray.ang.AppConfig.TLS
-import com.v2ray.ang.AppConfig.WIREGUARD_LOCAL_ADDRESS_V4
-import com.v2ray.ang.AppConfig.WIREGUARD_LOCAL_MTU
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.enums.NetworkType
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.AngConfigManager
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.AppConfig.DEFAULT_PORT
+import com.burgervpn.android.AppConfig.PREF_ALLOW_INSECURE
+import com.burgervpn.android.AppConfig.REALITY
+import com.burgervpn.android.AppConfig.TLS
+import com.burgervpn.android.AppConfig.WIREGUARD_LOCAL_ADDRESS_V4
+import com.burgervpn.android.AppConfig.WIREGUARD_LOCAL_MTU
+import com.burgervpn.android.R
+import com.burgervpn.android.dto.ProfileItem
+import com.burgervpn.android.enums.EConfigType
+import com.burgervpn.android.enums.NetworkType
+import com.burgervpn.android.extension.isNotNullEmpty
+import com.burgervpn.android.extension.toast
+import com.burgervpn.android.extension.toastSuccess
+import com.burgervpn.android.handler.AngConfigManager
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.util.JsonUtil
+import com.burgervpn.android.util.Utils
 
 class ServerActivity : BaseActivity() {
 

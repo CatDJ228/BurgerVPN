@@ -1,10 +1,10 @@
-package com.v2ray.ang.helper
+package com.burgervpn.android.helper
 
 import androidx.preference.PreferenceDataStore
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
-import com.v2ray.ang.handler.SettingsManager
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.handler.MmkvManager
+import com.burgervpn.android.handler.SettingsChangeManager
+import com.burgervpn.android.handler.SettingsManager
 
 /**
  * PreferenceDataStore implementation that bridges AndroidX Preference framework to MMKV storage.

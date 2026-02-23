@@ -1,4 +1,4 @@
-package com.v2ray.ang.receiver
+package com.burgervpn.android.receiver
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -7,9 +7,9 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.widget.RemoteViews
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.handler.V2RayServiceManager
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.R
+import com.burgervpn.android.handler.V2RayServiceManager
 
 class WidgetProvider : AppWidgetProvider() {
     /**

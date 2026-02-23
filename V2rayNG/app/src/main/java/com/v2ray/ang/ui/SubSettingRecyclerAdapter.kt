@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.graphics.Color
 import android.text.TextUtils
@@ -7,13 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.contracts.BaseAdapterListener
-import com.v2ray.ang.databinding.ItemRecyclerSubSettingBinding
-import com.v2ray.ang.helper.ItemTouchHelperAdapter
-import com.v2ray.ang.helper.ItemTouchHelperViewHolder
-import com.v2ray.ang.util.Utils
-import com.v2ray.ang.viewmodel.SubscriptionsViewModel
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.contracts.BaseAdapterListener
+import com.burgervpn.android.databinding.ItemRecyclerSubSettingBinding
+import com.burgervpn.android.helper.ItemTouchHelperAdapter
+import com.burgervpn.android.helper.ItemTouchHelperViewHolder
+import com.burgervpn.android.util.Utils
+import com.burgervpn.android.viewmodel.SubscriptionsViewModel
 
 class SubSettingRecyclerAdapter(
     private val viewModel: SubscriptionsViewModel,

@@ -1,12 +1,12 @@
-package com.v2ray.ang.ui
+package com.burgervpn.android.ui
 
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.databinding.ItemRecyclerLogcatBinding
-import com.v2ray.ang.viewmodel.LogcatViewModel
+import com.burgervpn.android.AppConfig
+import com.burgervpn.android.databinding.ItemRecyclerLogcatBinding
+import com.burgervpn.android.viewmodel.LogcatViewModel
 
 class LogcatRecyclerAdapter(
     private val viewModel: LogcatViewModel,
